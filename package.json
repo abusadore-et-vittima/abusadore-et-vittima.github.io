@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "pnpm exec serve -p 3000"
+    "serve": "pnpm exec serve public -p 3000",
+    "sitemap": "node scripts/generate-sitemap.js"
   },
   "keywords": [],
   "author": "",
